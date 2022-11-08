@@ -93,6 +93,7 @@ body {
     width: 100%;
     height: 30px;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .item::before {
@@ -134,4 +135,22 @@ body {
     content: 'Editorial';
     background-color: #45abea;
     border-color: #45abea;
+}
+
+#label2::after {
+    content: 'Q1 Goal';
+    background-color: #a884e7;
+    border-color: #a884e7;
+}
+
+#label3::after {
+    content: 'Recruiting';
+    background-color: #7dcab7;
+    border-color: #7dcab7;
+}
+
+#label4::after {
+    content: 'Mobile';
+    background-color: #f8c884;
+    border-color: #f8c884;
 }
