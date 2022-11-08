@@ -27,10 +27,10 @@ body {
     font-style: bold;
 }
 
-/* INIZIO BOX BIANCA */
+/* BOX BIANCO */
 .box {
     width: 80%;
-    height: 650px;
+    height: 800px;
     background-color: white;
     margin: 40px auto 10px;
     border-radius: 1%;
@@ -153,4 +153,16 @@ body {
     content: 'Mobile';
     background-color: #f8c884;
     border-color: #f8c884;
+}
+
+#label5::after {
+    content: 'Website';
+    background-color: #d863a1;
+    border-color:#d863a1;
+}
+
+#label6::after {
+    content: 'Sales';
+    background-color: #b0c926;
+    border-color: #b0c926;
 }
