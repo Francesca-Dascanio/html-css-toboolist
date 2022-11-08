@@ -35,3 +35,27 @@ body {
     margin: 40px auto 10px;
     border-radius: 1%;
 }
+
+/* INIZIO DIV INTERNO A MAIN*/
+.button-selection {
+    height: 20%;
+    margin-left: 5%;
+    padding: 50px;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+#button-1 {
+    background-color: rgb(89, 163, 243);
+    color: white;
+}
+
+#button-2 {
+    background-color: white;
+    border-color: lightgray;
+    color: lightgray;
+}
