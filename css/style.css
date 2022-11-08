@@ -75,8 +75,20 @@ body {
 .title {
     font-size: 1.5em;
     font-style: bold;
+    margin-bottom: 20px;
 }
 
 .title::before {
-    content: '\2304';
+    content: '\25BC';
+}
+
+
+.list {
+   display: inline-block; 
+   margin-left: 20px;
+}
+
+.item-check {
+    list-style-type: '\2713';
+    list-style-color: green;
 }
