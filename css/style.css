@@ -36,13 +36,19 @@ body {
     border-radius: 1%;
 }
 
-/* INIZIO DIV INTERNO A MAIN*/
-.button-selection {
-    height: 20%;
-    margin-left: 5%;
-    padding: 50px;
+
+/* DIV INTERNO A MAIN*/
+.left-space {
+    margin-left: 80px;
 }
 
+.button-selection {
+    height: 15%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* BUTTON*/
 .button {
     padding: 10px;
     border: 1px solid;
@@ -58,4 +64,19 @@ body {
     background-color: white;
     border-color: lightgray;
     color: lightgray;
+}
+
+
+/* LISTE */
+.container {
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+.title::before {
+    content: '\2304';
 }
