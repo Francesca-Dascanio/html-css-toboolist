@@ -80,6 +80,7 @@ body {
 
 .title::before {
     content: '\25BC';
+    font-size: 10px;;
 }
 
 
@@ -116,3 +117,21 @@ body {
     color: red;
 }
 
+
+.item::after {
+    border: 1px solid;
+    border-radius: 25px;
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 0.8em;
+
+}
+
+#label1::after {
+    content: 'Editorial';
+    background-color: #45abea;
+    border-color: #45abea;
+}
