@@ -9,8 +9,8 @@ body {
     background-color: lightgray;
 }
 
-/* MAIN HEADER */
-#main-header {
+/* HEADER PAGINA WEB */
+#header {
     width: 100%;
     height: 80px;
     background-color: white;
@@ -25,4 +25,13 @@ body {
     vertical-align: middle;
     font-size: 2em;
     font-style: bold;
+}
+
+/* INIZIO BOX BIANCA */
+.box {
+    width: 80%;
+    height: 650px;
+    background-color: white;
+    margin: 40px auto 10px;
+    border-radius: 1%;
 }
